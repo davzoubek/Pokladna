@@ -7,3 +7,7 @@ D:\GIT\Pokladna\Pokladna\Pokladna\obj\Debug\Pokladna.csproj.GenerateResource.cac
 D:\GIT\Pokladna\Pokladna\Pokladna\obj\Debug\Pokladna.csproj.CoreCompileInputs.cache
 D:\GIT\Pokladna\Pokladna\Pokladna\obj\Debug\Pokladna.exe
 D:\GIT\Pokladna\Pokladna\Pokladna\obj\Debug\Pokladna.pdb
+D:\GIT\Pokladna\Pokladna\Pokladna\bin\Debug\Newtonsoft.Json.dll
+D:\GIT\Pokladna\Pokladna\Pokladna\bin\Debug\Newtonsoft.Json.xml
+D:\GIT\Pokladna\Pokladna\Pokladna\obj\Debug\Pokladna.csproj.CopyComplete
+D:\GIT\Pokladna\Pokladna\Pokladna\obj\Debug\Pokladna.Form1.resources
