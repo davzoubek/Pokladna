@@ -1,0 +1,9 @@
+D:\GIT\Pokladna\Pokladna\Pokladna\bin\Debug\Pokladna.exe.config
+D:\GIT\Pokladna\Pokladna\Pokladna\bin\Debug\Pokladna.exe
+D:\GIT\Pokladna\Pokladna\Pokladna\bin\Debug\Pokladna.pdb
+D:\GIT\Pokladna\Pokladna\Pokladna\obj\Debug\Pokladna.csprojAssemblyReference.cache
+D:\GIT\Pokladna\Pokladna\Pokladna\obj\Debug\Pokladna.Properties.Resources.resources
+D:\GIT\Pokladna\Pokladna\Pokladna\obj\Debug\Pokladna.csproj.GenerateResource.cache
+D:\GIT\Pokladna\Pokladna\Pokladna\obj\Debug\Pokladna.csproj.CoreCompileInputs.cache
+D:\GIT\Pokladna\Pokladna\Pokladna\obj\Debug\Pokladna.exe
+D:\GIT\Pokladna\Pokladna\Pokladna\obj\Debug\Pokladna.pdb
