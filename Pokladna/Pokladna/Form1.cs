@@ -24,13 +24,40 @@ namespace Pokladna
             JsonRepos jsonRepos = new JsonRepos("data.json");
             jsonRepos.VytvorTestData();
             repositar = jsonRepos;
+            cBoxRok.SelectedIndex = cBoxRok.Items.IndexOf(DateTime.Now.Year.ToString());
+            cBoxMesic.SelectedIndex = DateTime.Now.Month-1;
             //repositar = new SqlRepos();
             //repositar = new XmlRepos();
             //pokladna = repositar.NactiVse();
-            pokladna = repositar.NactiVse();
-            foreach (var p in pokladna)
+            //foreach (var p in pokladna)
+            //{
+            //  listViewData.Items.Add(p.DolvItem());
+            // }
+        }
+
+        private void CBoxRok_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if(cBoxRok.SelectedIndex >= 0 && cBoxMesic.SelectedIndex >= 0)
             {
-                listViewData.Items.Add(p.DolvItem());
+                pokladna = repositar.NactiMesic(int.Parse(cBoxRok.SelectedText), cBoxMesic.SelectedIndex+1);
+                foreach (var p in pokladna)
+                {
+                    listViewData.Items.Add(p.DolvItem());
+                }
+            }
+            
+        }
+
+        private void CBoxMesic_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cBoxRok.SelectedIndex >= 0 && cBoxMesic.SelectedIndex >= 0)
+            {
+                pokladna = repositar.NactiMesic(int.Parse(cBoxRok.SelectedItem.ToString()), cBoxMesic.SelectedIndex + 1);
+                listViewData.Items.Clear();
+                foreach (var p in pokladna)
+                {
+                    listViewData.Items.Add(p.DolvItem());
+                }
             }
         }
     }

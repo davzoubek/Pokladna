@@ -35,9 +35,9 @@ namespace Pokladna
 
         public ListViewItem DolvItem()
         {
-            if(Castka < 0)
+            if(Castka > 0)
             {
-               return new ListViewItem(new string[] { Datum.ToString("dd.MM.yyyy"), Cislo.ToString(), Popis,"",Castka.ToString(), Zustatek.ToString(), Poznamka });
+               return new ListViewItem(new string[] { Datum.ToString("dd.MM.yyyy"), Cislo.ToString(), Popis,Castka.ToString(), " ", Zustatek.ToString(), Poznamka });
             }
             else
             {
